@@ -6,5 +6,5 @@ favorite_languages['sarah'] = 'c'
 favorite_languages['wdward'] = 'ruby'
 favorite_languages['phil'] = 'python'
 
-for name,lan in favorite_languages.items():
+for name, lan in favorite_languages.items():
 	print(name.title() + "'s favorite language is " + lan.title() + ".")
