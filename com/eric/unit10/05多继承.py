@@ -9,7 +9,7 @@ class Cat(Animal):
         self._name = name
 
 
-class Dog(Animal):
+class Tiger(Animal, Cat):
     def __init__(self, name):
         self._name = name
 
